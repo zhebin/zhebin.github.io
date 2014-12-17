@@ -25,7 +25,7 @@ hexo优点
 免去了申请域名、VPN等的麻烦
 支持MarkDown语法
 主题和插件很多">
-<meta property="og:image" content="./images/github.png">
+<meta property="og:image" content="http://zhebin.github.io/images/github.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="初试HEXO博客系统">
 <meta name="twitter:description" content="hexo简要介绍
@@ -131,7 +131,7 @@ hexo优点
 <h3 id="GitHub资源库设置">GitHub资源库设置</h3>
 <ul>
 <li>在<a href="http://www.github.com" target="_blank" rel="external">github</a>上新建一个以你的github账号命名的资源库，username.github.io资源库</li>
-<li>打开github for windows客户端，点击左上角的”+”号，切换到Clone标签页，点击username.github.io，在弹出的对话框中，选择本地资源库位置(例如 D:\github\zhebin.github.io)<img src="./images/github.png" alt="github"></li>
+<li>打开github for windows客户端，点击左上角的”+”号，切换到Clone标签页，点击username.github.io，在弹出的对话框中，选择本地资源库位置(例如 D:\github\zhebin.github.io)<img src="http://zhebin.github.io/images/github.png" alt="github"></li>
 </ul>
 <h3 id="hexo本地运行">hexo本地运行</h3>
 <p>打开Git Shell，依次输入如下命令（//后为注释语句）</p>
@@ -156,7 +156,7 @@ hexo优点
 
 <p><em>这里用到的是<a href="http://lib.sinaapp.com/?path=/jquery" target="_blank" rel="external">新浪的JQuery CDN</a></em></p>
 <h3 id="本地图片路径问题">本地图片路径问题</h3>
-<p>在github资源库根目录source下新建文件夹images，将需要的图片拷贝进来即可，在.md文件中使用images/XXX.jpg引用即可。</p>
+<p>在github资源库根目录source下新建文件夹images，将需要的图片拷贝进来即可，在.md文件中使用<a href="http://username.github.io/images/XXX.jpg引用即可。" target="_blank" rel="external">http://username.github.io/images/XXX.jpg引用即可。</a></p>
 <h3 id="为hexo添加评论模块">为hexo添加评论模块</h3>
 <p>国内用的比较多的是<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>，点击登录，输入必要的信息后，获得通用评论代码如下：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 多说评论框 start --&gt;</div><div class="line">	&lt;div class=<span class="string">"ds-thread"</span> data-thread-key=<span class="string">"请将此处替换成文章在你的站点中的ID"</span> data-title=<span class="string">"请替换成文章的标题"</span> data-url=<span class="string">"请替换成文章的网址"</span>&gt;&lt;/div&gt;</div><div class="line">&lt;!-- 多说评论框 end --&gt;</div><div class="line">&lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</div><div class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</div><div class="line">var duoshuoQuery = {short_name:<span class="string">"username"</span>};</div><div class="line">	(<span class="function"><span class="title">function</span></span>() {</div><div class="line">		var ds = document.createElement(<span class="string">'script'</span>);</div><div class="line">		ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</div><div class="line">		ds.src = (document.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</div><div class="line">		ds.charset = <span class="string">'UTF-8'</span>;</div><div class="line">		(document.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>] </div><div class="line">		 || document.getElementsByTagName(<span class="string">'body'</span>)[<span class="number">0</span>]).appendChild(ds);</div><div class="line">	})();</div><div class="line">	&lt;/script&gt;</div><div class="line">&lt;!-- 多说公共JS代码 end --&gt;</div></pre></td></tr></table></figure>
