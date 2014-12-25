@@ -6,5 +6,5 @@ description:
 ---
 
 ###盗图~
-![原理图](https://zhebin.github.io/images/hdfs.png)
+![原理图](https://zhebin.github.io/images/hdfs.jpg)
 
